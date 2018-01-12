@@ -10,20 +10,23 @@
       <br>
       <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
     </ul>
+   	<Echart />
     <tab-test-dd class="tab1"></tab-test-dd>
   </div>
 </template>
 
 <script>
 	import TabTestDd from '@/components/TabTest'
+	import Echart from '@/components/Echart'
 export default {
-	components:{TabTestDd},
+	components:{TabTestDd,Echart},
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
   },
+  
   methods:{
   	deletename:function(){
   		console.log("delete");
@@ -52,4 +55,5 @@ li {
 a {
   color: #42b983;
 }
+
 </style>
