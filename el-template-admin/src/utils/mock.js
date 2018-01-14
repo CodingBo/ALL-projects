@@ -1,6 +1,6 @@
 import Mockjs from 'mockjs'
 export default Mockjs.mock('/users', {
-  'columns|10': [
+  'columns|100': [
     {
       'id|+1': 1,
       date: '2016-05-02',
