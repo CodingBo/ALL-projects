@@ -8,7 +8,7 @@
 	var echart = require('echarts')
 	export default {
 		data() {
-			name: "vue-echarts example"
+			return {name: "vue-echarts example"}
 		},
 		mounted() {
 			var myChart = echart.init(document.getElementById('homeChart'));
